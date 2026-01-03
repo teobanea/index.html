@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="ro">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <title>ONG</title>
+  <style>
+    div {
+      background-color: rgb(250, 233, 209);
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    h1 {
+      color: white;
+    }
+
+    .nav {
+
+      width: 100%;
+
+    }
+
+    .footer {
+      padding: 50px;
+      color: palevioletred;
+    }
+
+
+    .sectiune {
+      background-color: rgb(245, 161, 176);
+    }
+
+
+    h2,
+    h3 {
+      border: 4px solid rgb(251, 206, 134);
+      margin: 10px;
+      padding: 10px;
+      background-color: rgb(245, 173, 185);
+      color: rgb(240, 81, 145);
+    }
+
+    .lista {
+      background-color: antiquewhite;
+      border: 2px solid rgb(239, 105, 128);
+      padding: 20px;
+      margin: 20px;
+
+    }
+
+    .card {
+      display: flex;
+      flex-direction: row;
+      color: palevioletred;
+      outline: 10px solid pink;
+      margin: 15px;
+    }
+
+    .carousel-inner {
+      height: 300px;
+    }
+
+    .vizibil-mobile,
+    .vizibil-tablet,
+    .vizibil-desktop {}
+
+    @media (max-width: 700px) {
+      .col {
+        width: 100%;
+        font-size: 30px;
+      }
+    }
+
+      .vizibil-mobile {
+        display: block;
+      }
+    
+
+    @media (min-width: 701px) and (max-width: 1200px) {
+      .col {
+        font-size: 20px;
+      }
+
+      .col-trei-sfert {
+        width: 100%;
+      }
+
+      .col-jumatate {
+        width: 100%;
+      }
+
+      .col-sfert {
+        width: 50%;
+        opacity: .6;
+      }
+
+      .vizibil-tablet {
+        display: block;
+      }
+    }
+
+    @media (min-width: 1201px) {
+      .col {
+        font-size: 16px;
+      }
+
+      .col-trei-sfert {
+        width: 75%;
+        opacity: .8;
+      }
+
+      .col-jumatate {
+        width: 50%;
+        opacity: .6;
+      }
+
+      .col-sfert {
+        width: 25%;
+        opacity: .4;
+      }
+
+      .vizibil-desktop {
+        display: block;
+      }
+    }
+  </style>
+</head>
+
+
+<body>
+
+  <div class="vizibil-mobile"></div>
+  <div class="vizibil-tablet"></div>
+  <div class="vizibil-desktop"></div>
+
+  <div class="row">
+    <div class="col col-trei-sfert">
+
+    </div>
+    <div class="col col-sfert">
+
+    </div>
+
+    <div class="col col-jumatate">
+
+    </div>
+    <div class="col col-jumatate">
+
+    </div>
+
+    <div class="col col-jumatate">
+
+    </div>
+    <div class="col col-sfert">
+
+    </div>
+    <div class="col col-sfert">
+
+    </div>
+
+    <div class="col col-sfert">
+
+    </div>
+    <div class="col col-sfert">
+
+    </div>
+    <div class="col col-sfert">
+
+    </div>
+    <div class="col col-sfert">
+
+    </div>
+  </div>
+</body>
+
+<div class="section">
+  </nav>
+  <nav class="navbar bg-body-tertiary">
+    <div class="container">
+      <a class="navbar-brand" href="#index.html">
+        <img src="6. ONG-organizatie/casa.png" alt="Bootstrap" height="50">
+      </a>
+    </div>
+
+    <nav class="nav">
+
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#cool-doggies">Cool Doggies</a>
+
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" href="#echipa-noastră">Echipa noastră</a>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+
+    </nav>
+  </nav>
+
+
+
+</div>
+
+<div id="carouselExample" class="carousel slide">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="6. ONG-organizatie/carusel4.jpg" class="d-block w-100" alt="un cățel maro care este spălat">
+    </div>
+    <div class="carousel-item">
+      <img src="6. ONG-organizatie/carusel2.jpg" class="d-block w-100" alt="masa de consul dintr-un cabinet veterinar">
+    </div>
+    <div class="carousel-item">
+      <img src="6. ONG-organizatie/carusel5.jpg" class="d-block w-100"
+        alt="un cățel întin pe stradă cu un con medical pe cap">
+    </div>
+    <div class="carousel-item">
+      <img src="6. ONG-organizatie/carusel1.jpg" class="d-block w-100"
+        alt="un cățel cu limba scoasă îmbrăcat în hanorac">
+    </div>
+    <div class="carousel-item">
+      <img src="catei3.jpg" class="d-block w-100"
+        alt="un desen cu o femeie ținând un afiș pe care scrie adoptă">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+</div>
+<div class="sectiune">
+  <h1 class="text-center" class="container">Cool doggies</h1>
+</div>
+
+<div class="card" id="cool-doggies">
+  <div class="card-body">
+    <h2>Aici sunt cățeii cool!</h2>
+  </div>
+</div>
+<h2>Cine suntem?</h2>
+
+<p>Suntem un ONG dedicat salvării, îngrijirii și găsirii unor familii iubitoare pentru câinii abandonați.
+  Luptăm
+  în fiecare zi pentru a oferi o a doua șansă animalelor care au trecut prin suferință.</p>
+<h3>Ce oferim?</h3>
+<ul class="lista">
+  <li>Salvarea câinilor din situații de risc: intervenim acolo unde este nevoie, preluăm câini abandonați,
+    răniți sau abuzați.</li>
+  <li>Îngrijire veterinară completă: vaccinare, deparazitare, microcipare, sterilizare și tratamente
+    medicale.
+  </li>
+  <li>Adăpost temporar și foster: oferim un loc sigur și îngrijire până găsesc o familie potrivită.</li>
+  <li>Programe de adopție responsabilă: potrivim fiecare cățel cu familia potrivită, asigurând o tranziție
+    ușoară.</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+
+<section id="echipa-noastră">
+  <h2>Echipa Noastră</h2>
+</section>
+<div class="card">
+  <div class="card mb-3">
+    <div class="row g-0">
+
+      <div class="cols-md-4">
+        <img src="6. ONG-organizatie/george.jpg" class="img-fluid rounded-start"
+          alt="un cățeluș drăguț din rasa Shih Tzu. Stă pe labele din spate, pe un fundal galben simplu, și poartă o salopetă albastră cu model de banane galbene. Cățelul se linge pe bot, cu limba scoasă, și se uită direct în cameră, având o expresie foarte expresivă și amuzantă.">
+      </div>
+      <div class="row">
+        <div class="card-body">
+          <h5 class="card-title">George</h5>
+          <p class="card-text">Acest micuț este un ghem de puf plin de personalitate.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="card mb-3">
+    <div class="row g-0">
+      <div class="row">
+
+        <img src="6. ONG-organizatie/catei2.jpg" class="img-fluid rounded-start"
+          alt="un cățeluș Shih Tzu care stă pe o cutie albă, pe un fundal albastru">
+      </div>
+      <div class="row">
+        <div class="card-body">
+          <h5 class="card-title">Bombonica</h5>
+          <p class="card-text">Este genul de cățel care aduce instantaneu un zâmbet pe buze cu prezența sa adorabilă.
+          </p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="card mb-3">
+    <div class="row g-0">
+      <div class="row">
+
+        <img src="6. ONG-organizatie/catei3.jpg" class="img-fluid rounded-start"
+          alt="Cățelul este un Shih Tzu, cu blana scurtă, de culoare alb cu bej. Stă cu gura ușor deschisă și cu limba scoasă, de parcă s-ar linge pe bot sau ar fi concentrat.">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h5 class="card-title">Fluffy</h5>
+          <p class="card-text">Este un partener mic și pufos care pare pregătit pentru joacă.</p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<h2>Cu ce ne poți ajuta?</h2>
+
+<div class="accordion accordion-flush" id="accordionFlushExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+        data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+        Adoptă un cățel
+      </button>
+    </h2>
+    <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">Oferă-i unei vieți salvate șansa la o familie adevărată.
+        Descoperă câinii disponibili și găsește companionul care ți se potrivește. Fiecare adopție
+        eliberează un loc pentru un alt suflet aflat în nevoie.</div>
+
+
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+        data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+        Donează
+      </button>
+    </h2>
+    <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">Fiecare donație se transformă în hrană, tratament și adăpost.
+        Sprijinul tău ne ajută să salvăm mai multe vieți, să acoperim costurile medicale și să oferim
+        condiții sigure fiecărui cățel preluat de noi.</div>
+    </div>
+  </div>
+</div>
+
+<div class="accordion accordion-flush" id="accordionFlushExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+        data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+        Devino voluntar
+      </button>
+    </h2>
+    <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">Implică-te direct și schimbă viața unui animal abandonat.
+        Fie că ajuți la plimbat, socializat, transport sau evenimente, prezența ta contează enorm pentru
+        cățeii care își recapătă încrederea în oameni.</div>
+
+
+    </div>
+  </div>
+
+
+  <div class="card">
+
+    <div class="card-body">
+      <section id="contact">
+        <h2>Contactează-ne</h2>
+        <p>Adresa noastră, email și telefon.</p>
+      </section>
+      <p class="card-text">Devin-o voluntar și contactează-ne</p>
+      <a href="https://www.facebook.com" target="_blank">
+        <i class="fab fa-facebook"></i> Facebook
+      </a>
+
+      <a href="https://www.instagram.com" target="_blank">
+        <i class="fab fa-instagram"></i> Instagram
+      </a>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="footer-content">
+      <p>&copy; 2026 Cool Doggies. Toate drepturile rezervate.</p>
+      <p>Contact: <a href="mailto:contact@cooldoggies.ro">contact@cooldoggies.ro</a></p>
+      <p>Telefon: +40 7xx xxx xxx</p>
+    </div>
+  </footer>
+  <div class="social-links">
+    <a href="https://www.facebook.com/numele-tau" target="_blank">
+      <i class="fab fa-facebook"></i>
+    </a>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"></script>
+    </body>
+
+
+</html>
